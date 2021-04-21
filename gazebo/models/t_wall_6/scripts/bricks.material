@@ -1,0 +1,100 @@
+
+material Bricks2
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture fff1c1.png
+        filtering trilinear
+        scale 2.55 2.55
+      }
+    }
+  }
+}
+
+material Bricks2_2
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture fff1c1.png
+        filtering trilinear
+        scale 1.4 14
+      }
+    }
+  }
+}
+
+material Bricks2_3
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture fff1c1.png
+        filtering trilinear
+        scale 2.7 2.7
+      }
+    }
+  }
+}
+
+material Bricks2_4
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture fff1c1.png
+        filtering trilinear
+        scale 4.1 4.1
+      }
+    }
+  }
+}
+
+material Bricks2_6
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture fff1c1.png
+        filtering trilinear
+        scale 1. 3.
+      }
+    }
+  }
+}

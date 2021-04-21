@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+    <model name='t_wall'>
+        
+        <static>1</static>
+        <allow_auto_disable>1</allow_auto_disable>
+        
+        <include>
+            <uri>model://t_wall_3</uri>
+            <name>t_wall_3_0</name>
+            <pose>5.5 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://t_wall_2</uri>
+            <name>t_wall_2_1</name>
+            <pose>0 0 6 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://t_wall_2</uri>
+            <name>t_wall_2_2</name>
+            <pose>11 0 6 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://t_wall_1</uri>
+            <name>t_wall_1_0</name>
+            <pose>5.5 0 12 0 0 0</pose>
+        </include>
+    
+    </model>
+</sdf>

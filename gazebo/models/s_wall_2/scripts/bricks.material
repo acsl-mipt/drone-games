@@ -1,0 +1,199 @@
+material Bricks4_17
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 3.4 4.4
+      }
+    }
+  }
+}
+
+material Bricks4_18
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 6.8 16
+      }
+    }
+  }
+}
+
+material Bricks4_19
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 1.7 17
+      }
+    }
+  }
+}
+
+material Bricks4_20
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 18 1.8
+      }
+    }
+  }
+}
+
+material Bricks4_21
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 2.5 20
+      }
+    }
+  }
+}
+
+material Bricks4_21
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 2.5 20
+      }
+    }
+  }
+}
+
+material Bricks4_22
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 20 2.5
+      }
+    }
+  }
+}
+
+material Bricks4_23
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 3 3
+      }
+    }
+  }
+}
+
+material Bricks4_24
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 4.5 4.5
+      }
+    }
+  }
+}
+
+material Bricks4_25
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0 1.0
+      specular 0.2 0.2 0.2 1.0 12.5
+
+      texture_unit
+      {
+        texture 293462.png
+        filtering trilinear
+        scale 9 9
+      }
+    }
+  }
+}

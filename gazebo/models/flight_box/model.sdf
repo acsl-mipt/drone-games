@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="flight_box">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <cast_shadows>0</cast_shadows>
+        <transparency>0.8</transparency>
+        <pose>0 0 25 0 0 0</pose>
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <box><size>20 124 50</size></box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/GreenTransparent</name>
+          </script>
+        </material>
+    </visual>
+    </link>
+  </model>
+</sdf>

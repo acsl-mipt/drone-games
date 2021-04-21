@@ -1,0 +1,12 @@
+plugin_blacklist: ['*']
+
+plugin_whitelist:
+- command
+- param
+- sys_status
+- sys_time
+- waypoint
+- global_position
+- local_position
+- imu
+- setpoint_raw

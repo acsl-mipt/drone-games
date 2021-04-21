@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="oneSidedPlane_2">
+    <static>true</static>
+    <link name="link">
+      <!--<kinematic>1</kinematic>-->
+      <collision name="collision">
+        <geometry>
+          <!--<plane>
+            <normal>0 0 1</normal>
+            <size>20 20</size>
+          </plane>-->
+          <box><size>20 20 0.1</size></box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+            <mesh>
+                <scale>1 1 1</scale>
+                <uri>model://oneSidedPlane_2/wall1.obj</uri>
+            </mesh>
+        </geometry>
+    </visual>
+    </link>
+  </model>
+</sdf>

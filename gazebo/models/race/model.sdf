@@ -1,0 +1,385 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+    <model name='race_box'>
+        
+        <static>1</static>
+        <allow_auto_disable>1</allow_auto_disable>
+        
+        <!-- Start block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>start_plane</name>
+            <pose>10 0 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://start_place</uri>
+            <name>start_plane</name>
+            <pose>10 0 0.1 0 0 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_1</name>
+            <pose>10 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>back_wall</name>
+            <pose>0 0 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_1</name>
+            <pose>10 10 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_2</name>
+            <pose>10 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <!-- First block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_1</name>
+            <pose>30 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_2</name>
+            <pose>50 0 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_2</name>
+            <pose>30 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_3</name>
+            <pose>50 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_3</name>
+            <pose>30 10 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_4</name>
+            <pose>30 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_5</name>
+            <pose>50 10 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_6</name>
+            <pose>50 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://t_wall</uri>
+            <name>t_wall__1</name>
+            <pose>60 -5.5 0 0 -0 1.57</pose>
+        </include>
+        
+        <!-- Second block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_3</name>
+            <pose>70 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_4</name>
+            <pose>90 0 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_4</name>
+            <pose>70 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_5</name>
+            <pose>90 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_8</name>
+            <pose>70 10 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_9</name>
+            <pose>70 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_10</name>
+            <pose>90 10 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_11</name>
+            <pose>90 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://e_wall</uri>
+            <name>e_wall__1</name>
+            <pose>100 10 0 0 -0 -1.57</pose>
+        </include>
+        
+        <!-- Turn block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_5</name>
+            <pose>110 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_6</name>
+            <pose>130 0 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_7</name>
+            <pose>130 20 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_6</name>
+            <pose>110 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_7</name>
+            <pose>130 0 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_8</name>
+            <pose>130 20 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_12</name>
+            <pose>110 10 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_13</name>
+            <pose>110 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_14</name>
+            <pose>120 20 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_15</name>
+            <pose>130 -10 10 1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_16</name>
+            <pose>140 0 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_17</name>
+            <pose>140 20 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        <!-- Third block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_8</name>
+            <pose>130 40 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_9</name>
+            <pose>130 60 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_9</name>
+            <pose>130 40 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_10</name>
+            <pose>130 60 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_18</name>
+            <pose>120 40 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_19</name>
+            <pose>140 40 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_20</name>
+            <pose>120 60 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_21</name>
+            <pose>140 60 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://s_wall</uri>
+            <name>s_wall__1</name>
+            <pose>120 30 0 0 -0 0</pose>
+        </include>
+        
+        <!-- Fourth block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_10</name>
+            <pose>130 80 0 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://asphalt_plane</uri>
+            <name>asphalt_plane_11</name>
+            <pose>130 100 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_11</name>
+            <pose>130 80 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_12</name>
+            <pose>130 100 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_22</name>
+            <pose>120 80 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_23</name>
+            <pose>140 80 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_24</name>
+            <pose>120 100 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_25</name>
+            <pose>140 100 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://t_wall2</uri>
+            <name>t_wall__2</name>
+            <pose>124.5 70 0 0 -0 0</pose>
+        </include>
+        
+        <!-- Finish block -->
+        
+        <!--<include>
+            <uri>model://asphalt_plane</uri>
+            <name>finish_plane</name>
+            <pose>130 120 0 0 0 0</pose>
+        </include>-->
+        
+        <include>
+            <uri>model://finish_place</uri>
+            <name>finish_place</name>
+            <pose>130 120 0.1 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://oneSidedPlane_2</uri>
+            <name>floor_plane_13</name>
+            <pose>130 120 20 0 0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>front_wall</name>
+            <pose>130 130 10 -1.57 -0 0</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_26</name>
+            <pose>120 120 10 -1.57 -3.14 1.57</pose>
+        </include>
+        
+        <include>
+            <uri>model://new_wall</uri>
+            <name>wall_27</name>
+            <pose>140 120 10 1.57 -3.14 1.57</pose>
+        </include>
+        
+        
+    
+    </model>
+</sdf>

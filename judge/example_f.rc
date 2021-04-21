@@ -1,0 +1,8 @@
+sim="formation"
+type="mc"
+
+world="formation_2.world"
+num=12
+
+team="My_Team"
+u_cmd="python3 $HOME/my_formation_task/run.py $num"

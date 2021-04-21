@@ -1,0 +1,8 @@
+sim="race"
+type="mc"
+
+world="race_2.world"
+num=12
+
+team="My_Team"
+u_cmd="python3 $HOME/my_race_task/run.py $num"

@@ -1,0 +1,11 @@
+/workspace
+/git-commands
+/multiple-sitl
+/Firmware*
+/PX4-Autopilot*
+/PX4-SITL_gazebo*
+__pycache__
+/judge/out_*
+/judge/.idea
+/judge/*.rc
+!/judge/example*

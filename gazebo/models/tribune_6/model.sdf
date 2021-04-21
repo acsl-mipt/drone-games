@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="tribune_6">
+    <static>true</static>
+    <link name="link">
+      <!--<kinematic>1</kinematic>
+      <collision name="collision">
+        <pose>0 0 50</pose>
+        <geometry>
+          <box><size>60 120 100</size></box>
+        </geometry>
+      </collision>-->
+      <collision name="collision_2">
+        <pose>0 0 0.1</pose>
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>146 212</size>
+          </plane>
+        </geometry>
+      </collision>
+      <collision name="collision_3">
+        <pose>0 107 50</pose>
+        <geometry>
+          <box><size>146 2 100</size></box>
+        </geometry>
+      </collision>
+      <collision name="collision_4">
+        <pose>74 0 50</pose>
+        <geometry>
+          <box><size>2 212 100</size></box>
+        </geometry>
+      </collision>
+      <collision name="collision_5">
+        <pose>0 -107 50</pose>
+        <geometry>
+          <box><size>146 2 100</size></box>
+        </geometry>
+      </collision>
+      <collision name="collision_6">
+        <pose>-74 0 50</pose>
+        <geometry>
+          <box><size>2 212 100</size></box>
+        </geometry>
+      </collision>
+      <collision name="collision_7">
+        <pose>0 0 100</pose>
+        <geometry>
+          <box><size>146 212 2</size></box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <pose>8.5 0 1.1 1.5708 0 1.5708</pose>
+        <transparency>0.6</transparency>
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <scale>1. 1. 1.</scale>
+                <uri>model://tribune_6/model.obj</uri>
+            </mesh>
+        </geometry>
+    </visual>
+    </link>
+    
+    <!--<include>
+      <uri>model://flight_box</uri>
+      <name>flight_box_1</name>
+      <pose>41 0 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://flight_box</uri>
+      <name>flight_box_2</name>
+      <pose>-41 0 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://regroup_box</uri>
+      <name>regroup_box_1</name>
+      <pose>0 -72 0 0 0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://regroup_box</uri>
+      <name>regroup_box_2</name>
+      <pose>0 72 0 0 0 0</pose>
+    </include>-->
+    
+  </model>
+  
+</sdf>

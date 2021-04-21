@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='s_wall_1'>
+    <pose>10 0 0 0 -0 0</pose>
+    <link name='Wall_6'>
+      <collision name='Wall_6_Collision'>
+        <geometry>
+          <box>
+            <size>20.15 0.15 6</size>
+          </box>
+        </geometry>
+        <pose>0 0 3 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_6_Visual'>
+        <pose>0 0 3 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>20.15 0.15 6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_1/scripts</uri>
+            <name>Bricks4_7</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <pose>-0 0 0 0 -0 0</pose>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

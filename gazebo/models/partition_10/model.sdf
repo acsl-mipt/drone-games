@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="partition_10">
+    <static>true</static>
+    <link name="link">
+    <pose>-10 0 0 1.57 0 0</pose>
+      <!--<kinematic>1</kinematic>-->
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://partition_10/model.stl</uri>
+        </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <cast_shadows>true</cast_shadows>
+        <geometry>
+            <mesh>
+                <scale>0.001 0.001 0.001</scale>
+                <uri>model://partition_10/model.stl</uri>
+            </mesh>
+        </geometry>
+        <material>
+          <ambient>0.3 0.9 0.3 1</ambient>
+          <diffuse>0.3 0.9 0.3 1</diffuse>
+          <specular>0.1 0.1 0.1 0</specular>
+          <emissive>0.2 0.3 0.2 1</emissive>
+        </material>
+    </visual>
+    </link>
+  </model>
+</sdf>

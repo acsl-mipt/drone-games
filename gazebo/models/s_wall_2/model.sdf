@@ -1,0 +1,322 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='s_wall_2'>
+    <pose>10 0 0 0 -0 0</pose>
+    <link name='Wall_0'>
+      <pose>-0 0 0 0 -0 0</pose>
+      <visual name='Wall_0_Visual_0'>
+        <pose>-7.5375 0 4 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.075 0.15 8</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_17</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_0'>
+        <geometry>
+          <box>
+            <size>5.075 0.15 8</size>
+          </box>
+        </geometry>
+        <pose>-7.5375 0 4 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_1'>
+        <pose>-3.5 0 1 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>3 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_18</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_1'>
+        <geometry>
+          <box>
+            <size>3 0.15 2</size>
+          </box>
+        </geometry>
+        <pose>-3.5 0 1 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_2'>
+        <pose>4.0375 0 0.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>12.075 0.15 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_19</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_2'>
+        <geometry>
+          <box>
+            <size>12.075 0.15 1</size>
+          </box>
+        </geometry>
+        <pose>4.0375 0 0.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_3'>
+        <pose>2.5 0 4.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.15 7</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_20</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_3'>
+        <geometry>
+          <box>
+            <size>1 0.15 7</size>
+          </box>
+        </geometry>
+        <pose>2.5 0 4.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_4'>
+        <pose>6.5375 0 1.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.075 0.15 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_21</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_4'>
+        <geometry>
+          <box>
+            <size>7.075 0.15 1</size>
+          </box>
+        </geometry>
+        <pose>6.5375 0 1.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_5'>
+        <pose>-2.5 0 5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.15 6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_21</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_5'>
+        <geometry>
+          <box>
+            <size>1 0.15 6</size>
+          </box>
+        </geometry>
+        <pose>-2.5 0 5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_6'>
+        <pose>-2.5 0 5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>1 0.15 6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_22</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_6'>
+        <geometry>
+          <box>
+            <size>1 0.15 6</size>
+          </box>
+        </geometry>
+        <pose>-2.5 0 5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_7'>
+        <pose>7.5375 0 5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>5.075 0.15 6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_23</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_7'>
+        <geometry>
+          <box>
+            <size>5.075 0.15 6</size>
+          </box>
+        </geometry>
+        <pose>7.5375 0 5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_8'>
+        <pose>0 0 5.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_23</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_8'>
+        <geometry>
+          <box>
+            <size>4 0.15 5</size>
+          </box>
+        </geometry>
+        <pose>0 0 5.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_9'>
+        <pose>0 0 5.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>4 0.15 5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_24</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_9'>
+        <geometry>
+          <box>
+            <size>4 0.15 5</size>
+          </box>
+        </geometry>
+        <pose>0 0 5.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_10'>
+        <pose>-4 0 7 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_25</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_10'>
+        <geometry>
+          <box>
+            <size>2 0.15 2</size>
+          </box>
+        </geometry>
+        <pose>-4 0 7 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_0_Visual_11'>
+        <pose>4 0 7 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>2 0.15 2</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://s_wall_2/scripts</uri>
+            <name>Bricks4_25</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_0_Collision_11'>
+        <geometry>
+          <box>
+            <size>2 0.15 2</size>
+          </box>
+        </geometry>
+        <pose>4 0 7 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>

@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<sdf version='1.7'>
+  <model name='e_wall_2'>
+    <pose>10 0 0 0 -0 0</pose>
+    <link name='Wall_8'>
+      <pose>-0 0 0 0 -0 0</pose>
+      <visual name='Wall_8_Visual_0'>
+        <pose>-6.5375 0 2 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.075 0.15 4</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://e_wall_2/scripts</uri>
+            <name>Bricks3_8</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_8_Collision_0'>
+        <geometry>
+          <box>
+            <size>7.075 0.15 4</size>
+          </box>
+        </geometry>
+        <pose>-6.5375 0 2 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_8_Visual_1'>
+        <pose>3.5375 0 0.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>13.075 0.15 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://e_wall_2/scripts</uri>
+            <name>Bricks3_9</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_8_Collision_1'>
+        <geometry>
+          <box>
+            <size>13.075 0.15 1</size>
+          </box>
+        </geometry>
+        <pose>3.5375 0 0.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_8_Visual_2'>
+        <pose>6.5375 0 2.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>7.075 0.15 3</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://e_wall_2/scripts</uri>
+            <name>Bricks3_10</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_8_Collision_2'>
+        <geometry>
+          <box>
+            <size>7.075 0.15 3</size>
+          </box>
+        </geometry>
+        <pose>6.5375 0 2.5 0 -0 0</pose>
+      </collision>
+      <visual name='Wall_8_Visual_3'>
+        <pose>0 0 3.5 0 -0 0</pose>
+        <geometry>
+          <box>
+            <size>6 0.15 1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://e_wall_2/scripts</uri>
+            <name>Bricks3_11</name>
+          </script>
+          <ambient>1 1 1 1</ambient>
+        </material>
+        <meta>
+          <layer>0</layer>
+        </meta>
+      </visual>
+      <collision name='Wall_8_Collision_3'>
+        <geometry>
+          <box>
+            <size>6 0.15 1</size>
+          </box>
+        </geometry>
+        <pose>0 0 3.5 0 -0 0</pose>
+      </collision>
+    </link>
+    <static>1</static>
+  </model>
+</sdf>
