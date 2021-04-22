@@ -17,12 +17,12 @@
 #### Квадрокоптер
 
 * Габариты - 0.52 х 0.7 х 0.11
-* [Набор параметров автопилота](https://github.com/acsl-mipt/drone-games/blob/main/.resources/iris.params)
+* [Набор параметров автопилота](iris.params)
 
 #### Планер вертикального взлета и посадки
 
 * Габариты - 0.45 х 1.072 х 0.1
-* [Набор параметров автопилота](https://github.com/acsl-mipt/drone-games/blob/main/.resources/standard_vtol.params)
+* [Набор параметров автопилота](standard_vtol.params)
 
 #### [Описание параметров автопилота](https://docs.px4.io/master/en/advanced_config/parameter_reference.html)
 
@@ -30,11 +30,11 @@
 
 Гоночная трасса представляет собой спортивный стадион.
 
-![Formation_1](https://github.com/acsl-mipt/drone-games/blob/main/.imgs/1.png)
+![Formation_1](../.imgs/1.png)
 
 Полет группы аппаратов осуществляется над беговыми дорожками по направлению против часовой стрелки. Место старта находится за правыми футбольными воротами.
 
-![Formation_2](https://github.com/acsl-mipt/drone-games/blob/main/.imgs/2.png)
+![Formation_2](../.imgs/2.png)
 
 Зоны пролета - части беговых дорожек, отмеченные зеленым цветом.
 
@@ -50,7 +50,7 @@
 
 Центры зон пролета расположены по следующим координатам: (41; 0) и (-41; 0), зон перестроения: (0; 72) и (0; -72).
 
-![Formation_3](https://github.com/acsl-mipt/drone-games/blob/main/.imgs/3.png)
+![Formation_3](../.imgs/3.png)
 
 Над стадионом введено ограничительное пространство со следующими размерами: длина 214 метров, ширина 148 метров, высота 100 метров, не позволяющее вылететь за пределы (-74; 74) по X, (-107; 107) по Y, (0; 100) по Z.
 
@@ -119,11 +119,11 @@
 
 После успешного выполнения скрипта c квадрокоптерами вы должны увидеть следующее:
 
-![Formation](https://github.com/acsl-mipt/drone-games/blob/main/.imgs/formation.png)
+![Formation](../.imgs/formation.png)
 
 После успешного выполнения скрипта c планерами вертикального взлета и посадки вы должны увидеть следующее:
 
-![Formation_vtol](https://github.com/acsl-mipt/drone-games/blob/main/.imgs/formation_vtol.png)
+![Formation_vtol](../.imgs/formation_vtol.png)
 
 ### Задание
 
@@ -134,7 +134,7 @@
 * выдаст управляющие воздействия на аппараты для перестроения между формациями;
 * выдаст управляющие воздействия на аппараты для перемещения по гоночной трассе для выполнения полного полетного задания.
 
-![Formation_4](https://github.com/acsl-mipt/drone-games/blob/main/.imgs/4.png)
+![Formation_4](../.imgs/4.png)
 
 #### Для Любительской лиги:
 
@@ -172,4 +172,4 @@
 
 Команды, которые успешно смогут выполнить тестовое задние до 12 апреля (включительно) проходят в финальную часть соревнований.
 
-С часто задаваемыми вопросами по заданию вы может ознакомиться в [FAQ](https://github.com/acsl-mipt/drone-games/blob/main/.resources/FAQ.md)
+С часто задаваемыми вопросами по заданию вы может ознакомиться в [FAQ](FAQ.md)
