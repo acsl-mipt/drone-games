@@ -14,7 +14,7 @@ import formations_gen as fgen
 
 from std_msgs.msg import String
 
-freq = 20
+freq = 10
 
 # преобразование дельты gps в дельту xyz по простейшей формуле (из интернета)
 def enu_vector(g1, g2):
@@ -34,27 +34,31 @@ def loop():
 
   """
   Формат строки публикуемой в топик, значения разделены пробелами:
-  ВРЕМЯ_СЕК ШИРОТА ДОЛГОТА ВЫСОТА
-  где ВРЕМЯ_СЕК - время выдачи, в секундах, ШИРОТА ДОЛГОТА ВЫСОТА - глобальные координаты точки назначения.
+  ВРЕМЯ_СЕК ШИРОТА_1 ДОЛГОТА_1 ВЫСОТА_1 ШИРОТА_2 ДОЛГОТА_2 ВЫСОТА_2 ... ШИРОТА_N ДОЛГОТА_N ВЫСОТА_N
+  где ВРЕМЯ_СЕК - время выдачи, в секундах, ШИРОТА_N ДОЛГОТА_N ВЫСОТА_N - глобальные координаты N точки назначения.
   """
   pub = rospy.Publisher("~point", String, queue_size=10)
 
   rate = rospy.Rate(freq)
 
-  to_publish = False
+  l0 = len(p0)
+  to_publish = l0*[False]
+  s = ""
+  pub_n = 0
+
   while not rospy.is_shutdown():
-    p = client.simGetObjectPose(args.model).position
-    if not p.containsNan():
-      if p.distance_to(p0) < distance:
-        to_publish = True
+    if pub_n<l0:
+      for n in range(1,args.num+1):
+        m = args.model + str(n)
+        p = client.simGetObjectPose(m).position
+        if not p.containsNan():
+          for i in range(l0):
+            if not to_publish[i] and p.distance_to(p0[i]) < distance:
+              to_publish[i] = True
+              s += " " + g_str[i]
+              pub_n += 1
 
-    t = time.time()
-
-    s = f"{t}"
-    if to_publish:
-      s += " " + g_str
-
-    pub.publish(s)
+    pub.publish(f"{time.time()}{s}")
 
     rate.sleep()
 
@@ -64,22 +68,25 @@ def arguments():
   parser = argparse.ArgumentParser()
 
   parser.add_argument("model", help="model name")
+  parser.add_argument("num", type=int, help="models number")
 
-  parser.add_argument("gps_point", type=Path, help="file with GPS coordinates of point")
+  parser.add_argument("gps_points", type=Path, help="file with GPS coordinates of points")
   parser.add_argument("distance", type=Path, help="file with distance to start publishing point")
 
   parser.add_argument("--gps_ref", type=float, nargs=3, help="GPS reference point, center of local coordinate system")
 
   args = parser.parse_args()
 
-  g = fgen.read_values("gps_point", args.gps_point, 3, row_num = 1)[0]
-  g_str = ' '.join(map(str,g))
-
   distance = fgen.read_values("distance", args.distance, 1, row_num = 1)[0][0]
 
-  enu0 = enu_vector(args.gps_ref, g)
+  p0 = []
+  g_str = []
+  for g in fgen.read_values("gps_points", args.gps_points, 3):
+    g_str.append(' '.join(map(str,g)))
 
-  p0 = Vector3r(enu0[1], enu0[0], -enu0[2]) #ned
+    enu0 = enu_vector(args.gps_ref, g)
+
+    p0.append(Vector3r(enu0[1], enu0[0], -enu0[2])) #ned
 
 if __name__ == '__main__':
   global client
