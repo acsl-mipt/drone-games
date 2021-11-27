@@ -31,8 +31,8 @@ DELTA_X, DELTA_Y, DELTA_Z = 0.95, 0.95, 0.95
 K = 1.5
 
 ###
-N_3, N_4, N_5 = 6, 6, 6
-LOOP_N = 5
+N_3, N_4, N_5 = 0, 0, 0
+LOOP_N = 3
 
 X_0, Y_0, Z_0 = 450, 100, 101.6 + 2.337
 
@@ -114,7 +114,7 @@ for i in reversed(range(N_1, N_1 + N_2)):
     client.moveOnPathAsync(create_path_heap(i, N_1, N_1 + N_2), velocity=VELOCITY, vehicle_name='{}_{}'.format(BOT_NAME, i + 1))
 
 ###################
-
+"""
 time.sleep(T_BETWEEN_GROUPS)
 
 
@@ -178,4 +178,5 @@ for i in nums:
 for i in range(N_1 + N_2 + N_3 + N_4, N_1 + N_2 + N_3 + N_4 + N_5):
     client.moveOnPathAsync(create_path_snake(i), velocity=VELOCITY, vehicle_name='{}_{}'.format(BOT_NAME, i + 1))
     time.sleep(T_SLEEP_SNAKE)
+"""
 
